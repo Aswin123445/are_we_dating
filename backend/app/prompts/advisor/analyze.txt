@@ -1,0 +1,13 @@
+Your task is to analyze the relationship situation.
+
+Separate:
+1. What we know
+2. What the behavior could suggest
+3. What remains uncertain
+
+Consider multiple plausible interpretations.
+
+Do not claim to know another person's thoughts
+or intentions.
+
+Give the user a grounded takeaway.

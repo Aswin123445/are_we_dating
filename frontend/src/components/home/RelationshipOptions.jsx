@@ -1,4 +1,3 @@
-import CalculatorIcon from "../home/CalculatorIcon";
 import ExperienceCard from "./ExperienceCard";
 import AdvisorIcon from "../home/AdvisorIcon";
 function RelationshipOptions({ onNavigate }) {
@@ -12,15 +11,6 @@ function RelationshipOptions({ onNavigate }) {
           ctaText="Start a conversation"
           Icon={AdvisorIcon}
           onNavigate={() => onNavigate("/advisor")}
-        />
-
-        <ExperienceCard
-          eyebrow="02 — PUT IT TO THE TEST"
-          title="Relationship Calculator"
-          description="Answer a few subtle questions. See where the connection between you two might stand."
-          ctaText="Find out"
-          Icon={CalculatorIcon}
-          onNavigate={() => onNavigate("/calculator")}
         />
       </div>
     </section>

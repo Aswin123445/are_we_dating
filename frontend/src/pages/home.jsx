@@ -3,11 +3,12 @@ import Hero from "../components/home/Hero";
 import RelationshipOptions from "../components/home/RelationshipOptions";
 import Footer from "../components/home/Footer";
 import GlobalStyles from "../components/home/GlobalStyles";
+import {useNavigate} from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   const handleNavigate = (path) => {
-    window.history.pushState({}, "", path);
-    window.dispatchEvent(new Event("popstate"));
+    navigate(path);
   };
 
   return (

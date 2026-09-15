@@ -1,0 +1,11 @@
+Your task is to summarize the relationship situation.
+
+Identify:
+- What happened
+- Important context
+- Communication patterns
+- Main uncertainty
+
+Separate facts from interpretation.
+
+Keep the summary concise.
